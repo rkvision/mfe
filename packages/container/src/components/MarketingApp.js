@@ -7,6 +7,7 @@ export default () => {
     useEffect(() => {
         mount(ref.current);
     });
-    
+
     return <div class="marketing-class" ref={ref} />
+
 }
